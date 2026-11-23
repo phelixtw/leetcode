@@ -1,7 +1,12 @@
+/*
+ * @lc app=leetcode id=5 lang=csharp
+ *
+ * [5] Longest Palindromic Substring
+ */
+
+// @lc code=start
 public class Solution {
 
-    // babad
-    
     public string LongestPalindrome(string s) {
         int bestStart = 0, bestLength = 1;
 
@@ -41,3 +46,4 @@ public class Solution {
         return s.Substring(bestStart, bestLength);
     }
 }
+// @lc code=end
